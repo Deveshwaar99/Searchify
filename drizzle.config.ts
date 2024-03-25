@@ -7,4 +7,6 @@ export default defineConfig({
     connectionString: process.env.DATABASE_URL!,
   },
   out: './drizzle',
+  verbose: true,
+  strict: true,
 })
